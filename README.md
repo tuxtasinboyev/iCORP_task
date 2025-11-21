@@ -24,8 +24,8 @@ Bu kichik loyiha test API bilan ikki bosqichli ishlash jarayonini ko‘rsatadi. 
 Loyiha talab qilingan barcha bosqichlarni bajaradi: part1 olish, part2 qabul qilish, ikkalasini birlashtirish va yakuniy natijani chiqarish. Hammasi oddiy va bitta faylda yozilgan.
 
 ## Env
-| **TEST_API**     Test API endpoint manzili. Bunda dastur POST va GET so‘rovlarni yuboradi.                                                              
-| **CALLBACK_URL** Sizning serveringizga API tomonidan yuboriladigan webhook (2-qism) URL manzili. Bu manzil **ngrok orqali ommaga ochiq** bo‘lishi kerak.
+ **TEST_API**     Test API endpoint manzili. Bunda dastur POST va GET so‘rovlarni yuboradi.                                                              
+ **CALLBACK_URL** Sizning serveringizga API tomonidan yuboriladigan webhook (2-qism) URL manzili. Bu manzil **ngrok orqali ommaga ochiq** bo‘lishi kerak.
 
 TEST_API="https://test.icorp.uz/interview.php"
 CALLBACK_URL="https://2c4811ffd25c.ngrok-free.app/callback"
