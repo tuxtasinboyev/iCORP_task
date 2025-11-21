@@ -23,7 +23,7 @@ Bu kichik loyiha test API bilan ikki bosqichli ishlash jarayonini ko‘rsatadi. 
 
 Loyiha talab qilingan barcha bosqichlarni bajaradi: part1 olish, part2 qabul qilish, ikkalasini birlashtirish va yakuniy natijani chiqarish. Hammasi oddiy va bitta faylda yozilgan.
 
-##.env
+## Env
 | **TEST_API**     Test API endpoint manzili. Bunda dastur POST va GET so‘rovlarni yuboradi.                                                              
 | **CALLBACK_URL** Sizning serveringizga API tomonidan yuboriladigan webhook (2-qism) URL manzili. Bu manzil **ngrok orqali ommaga ochiq** bo‘lishi kerak.
 
